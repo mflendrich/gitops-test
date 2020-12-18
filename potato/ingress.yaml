@@ -3,6 +3,8 @@ kind: Ingress
 metadata:
   name: potato-ingress
   namespace: potato
+  annotations:
+    kubernetes.io/ingress.class: kong
 spec:
   rules:
   - http:
