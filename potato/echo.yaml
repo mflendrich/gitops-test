@@ -7,7 +7,7 @@ metadata:
   labels:
     app: echo
   name: echo
-	namespace: potato
+  namespace: potato
 spec:
   ports:
   - port: 8080
@@ -27,7 +27,7 @@ metadata:
   labels:
     app: echo
   name: echo
-	namespace: potato
+  namespace: potato
 spec:
   replicas: 2
   selector:
